@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.movieImg{
+  width:100%;
+  border: 2px solid yellow;
+  padding: 10px;
+  border-radius: 25px;
+}
+.movieImg:hover{
+  background-color: lightsalmon;
+}
+ .navbar-custom{
+background: rgb(22, 21, 21);
+} 
+.navbar-custom .btn{
+  color:yellow;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+  color:yellow;
+  font-size:25px; 
+} 
+.navbar-custom .nav-link{
+color:yellow;
+font-size:20px;
+}
+.navbar-custom .nav-item dropdown{
+  color:yellow;
+}
+#movie-backdrop {
+    width: 100%;
+}
+h3{
+ display:flex;
+ /* float:left; */
+  font-size: 20px;
+}
+/* .list-unstyled{
+  float:left;
+} */
+.test{
+color:rgba(223, 216, 216, 0.541); 
+font-size:15px;
+}
+/* .container {
+  align-items: center;
+  zoom: 0.80;
+} */
+#container:hover {
+cursor: grab;
+  /* zoom: 0.90; */
+}
+#oneGenre:hover{
+cursor: pointer;
+}
+.active-pink-4 input[type=text]{
+  font-family:greek;
+  font-size:5px;
+  background:grey;
+  color: yellow;
+}
+.active-pink-4 input[type=text]:focus:not([readonly]) {
+  border: 1px solid #d8d406;
+  box-shadow: 0 0 0 1px #d8d406;
+  background: grey;
+}
+.actorpics{
+  cursor:pointer;
+ float: left;
+  margin:10px;
+ /* display:flex;
+  flex-direction: row;
+  justify-content:center; */
+} 
+#actors {
+  margin: 20px;
+  display:flex;
+  flex-direction: row;
+}
+#similar{
+  margin: 24px 16px 0 0;
+  display:flex;
+  flex-direction: row;
+}
+#trailers{
+  margin: 24px 16px 0 0;
+  display:flex;
+  flex-direction: row;
+}  
+#production{
+  margin: 24px 16px 0 0;
+  display:flex;
+  flex-direction: row;
+}
+img{
+border-radius:15px;
+}
+img:hover{
+  border-radius: 20px yellow;
+  cursor: pointer;
+}
+  body{
+    /* margin:1em; */
+     background:rgb(22, 21, 21); 
+       height: 100%;
+   }
+   #moviesActed{
+     cursor:pointer;
+        margin:10px;
+     display:flex;
+    flex-direction: row;
+   }
+   footer {  
+    color:yellow;
+    font-size: 1.5em;
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  /* font-size: 150%;
+  color:rgb(216, 246, 41); */
+  margin: 3%;
+  padding-left: 25px; 
+  align-items: center;
+  text-decoration: none;
+  border-radius: 70%;
+  padding-top: 12px;
+  justify-content: space-around;
+}
+
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
